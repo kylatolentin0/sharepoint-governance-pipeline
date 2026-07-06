@@ -1,4 +1,0 @@
-__pycache__/
-*.db
-*.xlsx
-.DS_Store
