@@ -9,7 +9,18 @@ This project is an automated data engineering and security analytics pipeline de
 3. **Excel Bridge:** `export_to_excel.py` securely exports the structured tables to feed native Power BI connections.
 4. **Analytics Engine:** `governance_rules.py` utilizes SQL logic to flag insider threat anomalies and permission exposure risks.
 
+![Pipeline Architecture Diagram](docs/architecture.png)
+
 ## Core Technologies
 * **Language:** Python
 * **Data Engineering & Storage:** Pandas, SQLAlchemy, SQLite
 * **Analytics & Visualization:** SQL, Power BI
+
+## Security Operations Dashboard
+The structured data feeds into an enterprise-grade Power BI dashboard designed for security analysts and compliance officers to track threat vectors and anomalous activity.
+
+### Executive Overview & Incident Monitoring
+![Power BI Security Portal Dashboard](docs/dashboard.png)
+
+### Compliance & Risk Level Assignments
+![Risk Severity Matrix Report](docs/report.png)
